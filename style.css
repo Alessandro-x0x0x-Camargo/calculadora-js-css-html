@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+
+
+.calculadora {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+}
+
+#resultado{
+    background-color: white;
+    width: 220px;
+    height: 40px;
+    margin: 5px;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.botao {
+    width: 59.2px;
+    color: gray;
+    padding: 15px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.botao:hover {
+    background-color: black;
+}
+
